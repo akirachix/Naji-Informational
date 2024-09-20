@@ -33,10 +33,10 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-12 mr-6"> 
-              <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</a>
-              <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</a>
-              <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</a>
-              <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</a>
+              <a href="#Home" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</a>
+              <a href="#about" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</a>
+              <a href="#ourservice" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</a>
+              <a href="#Team" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</a>
             </div>
           </nav>
 

@@ -2,7 +2,7 @@
 
 export default function Landingpage() {
   return (
-    <main className="relative w-full h-screen mt-30">
+    <main id="Home" className="relative w-full h-screen mt-30">
     
       <img
         src="/images/background.jpg"
