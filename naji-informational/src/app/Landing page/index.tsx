@@ -3,9 +3,11 @@ import Image from "next/image";
 export default function Landingpage() {
   return (
     <main className="relative w-full h-screen mt-30">
-      <img
+      <Image
         src="/images/background.jpg"
         alt="Background"
+        width={100}
+        height={100}
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-black/50"></div>
