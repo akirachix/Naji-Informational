@@ -1,18 +1,14 @@
-"use client";
+
 import Image from "next/image";
 export default function Landingpage() {
   return (
-    <main id="Home" className="relative w-full h-screen mt-30">
-    
-      <Image
+    <main className="relative w-full h-screen mt-30">
+      <img
         src="/images/background.jpg"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover"
       />
-      
       <div className="absolute inset-0 bg-black/50"></div>
-
-      
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 text-white font-serif">
           Early Detection of Pests, High Quality

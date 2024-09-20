@@ -25,7 +25,7 @@ const Ourservice = () => {
           }
         ].map((service, index) => (
           <div key={index} className="flex justify-center">
-            <div className="bg-red-950 p-6 rounded-3xl max-w-full sp:w-[50%]">
+            <div className="bg-red-950 p-6 rounded-3xl w-[604px] h-[352px] sp:w-[50%] mb-[9%]">
               <h2 className="text-[30px] sm:text-3xl font-semibold mb-4 text-white font-serif text-left">{service.title}</h2>
               <p className="text-white text-[25px] md:text-3xl md: sm:text-lg font-serif text-left leading-relaxed">
                 {service.content}

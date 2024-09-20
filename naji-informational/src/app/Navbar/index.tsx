@@ -15,7 +15,7 @@ export default function Navbar() {
         <header className="bg-white">
           <nav className="mx-auto flex justify-between items-center p-3 md:p-3 lg:p-5">
             <div className="text-2xl font-bold ml-[-1%] mr-[-4%]">
-              <Image src="/images/log.png" alt="Logo" width={50} height={20}/>
+              <Image src="/images/log.png" alt="Logo" width={70} height={40}/>
             </div>
 
             <div className="md:hidden">
