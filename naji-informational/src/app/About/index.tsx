@@ -3,7 +3,7 @@ import Image from 'next/image';
 export default function About() {
 return (
 <div >
-<section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 md:text-[36px] ">
+<section id='about' className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-20 md:text-[36px] ">
 <h1 className="text-5xl font-semibold text-center mb-12 font-serif">About Us</h1>
 <div className="grid grid-cols-1 is:px-6  lg:grid-cols-3  bg-white-400 gap-8  sm:justify-center items-center md:justify-center " >
 <div className="bg-white p-10 rounded-lg shadow-2xl shadow-gray-385 text-center md:shadow-2xl shadow-gray-385 ">
