@@ -1,8 +1,8 @@
-import Navbar from "./Navbar";
-import Landingpage from "./Landing page";
-import Footer from "./footer";
-import Ourservice from "./components/Ourservice";
-import Features from "./components/Team";
+import Navbar from "./components/Navbar";
+import Landingpage from "./components/Landing page";
+import Footer from "./components/Footer/footer";
+import Ourservice from "./components/services/Ourservice";
+import Features from "./components/Teams/Team";
 
 export default function Home() {
   return (
