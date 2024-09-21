@@ -1,19 +1,12 @@
-<<<<<<< HEAD
+
 import Navbar from "./components/Navbar";
 import Landingpage from "./components/Landing page";
 import Footer from "./components/Footer/footer";
 import Ourservice from "./components/services/Ourservice";
-import Features from "./components/Teams/Team";
-=======
-import Image from "next/image";
-import Navbar from "./Navbar";
-import Landingpage from "./Landing page";
-import Ourservice from "./components/Ourservice";
-import Product from "./Product";
-import About from "./About"
-import Features from "./components/Team";
-import Footer from "./footer";
->>>>>>> 96806e8dd458001a04fec433e6928e8d35f2805d
+import Features from "./components/Teams/Team"
+import Products from "./components/Product";
+import About from "./components/About";
+
 
 export default function Home() {
   return (
@@ -21,7 +14,7 @@ export default function Home() {
     <Navbar/>
     <Landingpage/>
     <Ourservice/>
-    <Product/>
+    <Products/>
     <About/>
     <Features/>
     <Footer/>
