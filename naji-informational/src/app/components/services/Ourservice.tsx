@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ourservice = () => {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div  id="ourservice"className="container mx-auto px-4 py-12">
       <h1 className="text-[30px] sm:text-5xl font-bold text-center mb-16 text-black font-serif">Our Services</h1>
       
       <div className="grid lg:grid-cols-2 gap-12 px-4 md:px-8 lg:px-16">
