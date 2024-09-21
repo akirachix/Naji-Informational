@@ -1,10 +1,12 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Landingpage() {
   return (
     <main id="Home" className="relative w-full h-screen mt-30">
     
-      <img
+      <Image
         src="/images/background.jpg"
         alt="Background"
         className="absolute inset-0 w-full h-full object-cover"

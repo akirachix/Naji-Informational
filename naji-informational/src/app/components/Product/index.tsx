@@ -15,7 +15,7 @@ export default function Products() {
           </p>
         </div>
         <div className="justify-center lg:w-1/2">
-          <img 
+          <Image
             src="/images/box.png" 
             alt="PestGuard Device" 
             className="max-w-xs md:max-w-md mx-auto border border-gray-300 rounded-lg p-6  shadow" 
