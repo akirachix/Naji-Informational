@@ -15,7 +15,7 @@ export default function Navbar() {
         <header className="bg-white">
           <nav className="mx-auto flex justify-between items-center p-3 md:p-3 lg:p-5">
             <div className="text-2xl font-bold ml-[-1%] mr-[-4%]">
-              <Image src="/images/log.png" alt="Logo" width={50} height={20}/>
+              <Image src="/images/log.png" alt="Logo" width={60} height={20}/>
             </div>
 
             <div className="md:hidden">
@@ -33,10 +33,12 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-12 mr-6"> 
-              <a href="#Home" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</a>
-              <a href="#about" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</a>
-              <a href="#ourservice" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</a>
-              <a href="#Team" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</a>
+              <a href="#homepage" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</a>
+              <a href="#product" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</a>
+              <a href="#services" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</a>
+              <a href="#team" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</a>
+              <a href="#contact" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Contact</a>
+
             </div>
           </nav>
 
@@ -48,10 +50,12 @@ export default function Navbar() {
                 </svg>
               </button>
               <div className="flex flex-col space-y-18">
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Home</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">About Us</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Our Service</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Team</a>
+                <a href="#homepage" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Home</a>
+                <a href="#product" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">About Us</a>
+                <a href="#services" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Our Service</a>
+                <a href="#team" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Team</a>
+                <a href="#contact" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Contact</a>
+
               </div>
             </div>
           )}
