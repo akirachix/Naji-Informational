@@ -9,6 +9,8 @@ export default function Landingpage() {
       <Image
         src="/images/background.jpg"
         alt="Background"
+        width={600}
+        height={100}
         className="absolute inset-0 w-full h-full object-cover"
       />
       
