@@ -1,8 +1,8 @@
-import Navbar from "./Navbar";
-import Landingpage from "./Landing page";
+import Navbar from "./components/Navbar";
+import Landingpage from "./components/Landing page";
 import Ourservice from "./Ourservice";
-import Product from "./Product";
-import About from "./About"
+import Products from "./components/Product";
+import About from "./components/About";
 import Features from "./Team";
 import Footer from "./Footer";
 
@@ -12,7 +12,7 @@ export default function Home() {
     <Navbar/>
     <Landingpage/>
     <Ourservice/>
-    <Product/>
+    <Products/>
     <About/>
     <Features/>
     <Footer/>
