@@ -5,7 +5,7 @@ import Ourservice from "./components/Ourservice";
 import Product from "./Product";
 import About from "./About"
 import Features from "./components/Team";
-import Footer from "./footer";
+import Footer from "./Footer";
 
 export default function Home() {
   return (

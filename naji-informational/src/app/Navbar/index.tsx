@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link"; // Import Link from next/link
 import { useState } from "react";
 
 export default function Navbar() {
@@ -33,10 +34,11 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-12 mr-6"> 
-              <a href="#Home" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</a>
-              <a href="#about" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</a>
-              <a href="#ourservice" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</a>
-              <a href="#Team" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</a>
+              <Link href="#Home" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</Link>
+              <Link href="#about" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</Link>
+              <Link href="#ourservice" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</Link>
+              <Link href="#Team" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</Link>
+              <Link href="#Contact" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Contact</Link>
             </div>
           </nav>
 
@@ -47,11 +49,12 @@ export default function Navbar() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
-              <div className="flex flex-col space-y-18">
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Home</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">About Us</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Our Service</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Team</a>
+              <div className="flex flex-col space-y-6"> {/* Adjust space-y value */}
+                <Link href="#Home" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Home</Link>
+                <Link href="#about" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">About Us</Link>
+                <Link href="#ourservice" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Our Service</Link>
+                <Link href="#Team" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Team</Link>
+                <Link href="#Contact" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Contact</Link>
               </div>
             </div>
           )}
