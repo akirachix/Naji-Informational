@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Navbar from "./Navbar";
 import Landingpage from "./Landing page";
-import Ourservice from "./components/Ourservice";
+import Ourservice from "./Ourservice";
 import Product from "./Product";
 import About from "./About"
-import Features from "./components/Team";
+import Features from "./Team";
 import Footer from "./Footer";
 
 export default function Home() {
