@@ -1,12 +1,10 @@
-
 import Navbar from "./components/Navbar";
 import Landingpage from "./components/Landing page";
-import Footer from "./components/Footer/footer";
-import Ourservice from "./components/services/Ourservice";
-import Features from "./components/Teams/Team"
+import Ourservice from "./Ourservice";
 import Products from "./components/Product";
 import About from "./components/About";
-
+import Features from "./Team";
+import Footer from "./Footer";
 
 export default function Home() {
   return (

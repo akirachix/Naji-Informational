@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -9,13 +10,18 @@ export default function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsOpen(false); 
+  };
+
   return (
+    <div className="bg-white shadow-md sticky top-0 z-50">
     <main>
       <div className="font-serif text-xl">
         <header className="bg-white">
           <nav className="mx-auto flex justify-between items-center p-3 md:p-3 lg:p-5">
             <div className="text-2xl font-bold ml-[-1%] mr-[-4%]">
-              <Image src="/images/log.png" alt="Logo" width={50} height={20}/>
+              <Image src="/images/log.png" alt="Logo" width={50} height={20} />
             </div>
 
             <div className="md:hidden">
@@ -33,10 +39,11 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex space-x-12 mr-6"> 
-              <a href="#Home" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</a>
-              <a href="#about" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</a>
-              <a href="#ourservice" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</a>
-              <a href="#Team" className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</a>
+              <Link href="#Home" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Home</Link>
+              <Link href="#about" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">About Us</Link>
+              <Link href="#ourservice" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Our Service</Link>
+              <Link href="#Team" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Team</Link>
+              <Link href="#Contact" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[26px] text-green-900">Contact</Link>
             </div>
           </nav>
 
@@ -47,16 +54,18 @@ export default function Navbar() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
-              <div className="flex flex-col space-y-18">
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Home</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">About Us</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Our Service</a>
-                <a href="#" className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Team</a>
+              <div className="flex flex-col space-y-24">
+                <Link href="#Home" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Home</Link>
+                <Link href="#about" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">About Us</Link>
+                <Link href="#ourservice" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Our Service</Link>
+                <Link href="#Team" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Team</Link>
+                <Link href="#Contact" onClick={handleLinkClick} className="text-black-700 hover:text-green-800 font-black font-serif text-[32px] text-green-900">Contact</Link>
               </div>
             </div>
           )}
         </header>
       </div>
     </main>
+    </div>
   );
 }
