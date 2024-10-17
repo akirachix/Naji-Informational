@@ -1,10 +1,8 @@
 import React from 'react';
-
 const Ourservice = () => {
   return (
-    <div  id="ourservice"className="container mx-auto px-4 py-12">
+    <div id="ourservice" className="container mx-auto px-4 py-12">
       <h1 className="text-[30px] sm:text-5xl font-bold text-center mb-16 text-black font-serif">Our Services</h1>
-      
       <div className="grid lg:grid-cols-2 gap-12 px-4 md:px-8 lg:px-16">
         {[
           {
@@ -25,9 +23,9 @@ const Ourservice = () => {
           }
         ].map((service, index) => (
           <div key={index} className="flex justify-center">
-            <div className="bg-red-950 p-6 rounded-3xl max-w-full sp:w-[50%]">
+            <div className="bg-red-950 p-16 rounded-3xl max-w-full sp:w-[70%]">
               <h2 className="text-[30px] sm:text-3xl font-semibold mb-4 text-white font-serif text-left">{service.title}</h2>
-              <p className="text-white text-[25px] md:text-3xl md: sm:text-lg font-serif text-left leading-relaxed">
+              <p className="text-white text-[14px] sm:text-[16px] md:text-lg font-serif text-left leading-relaxed">
                 {service.content}
               </p>
             </div>
@@ -37,5 +35,4 @@ const Ourservice = () => {
     </div>
   );
 }
-
 export default Ourservice;
