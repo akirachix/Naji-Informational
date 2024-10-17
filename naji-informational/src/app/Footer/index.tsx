@@ -1,11 +1,12 @@
 'use client';
 import Link from "next/link";
 import React from 'react';
+
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
-     <footer id="contact" className="bg-[#124502] text-white">
+     <footer id="Contact" className="bg-[#124502] text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col items-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 md:gap-16 im:grid-cols-3 lg:gap-24 w-full max-w-6xl text-center">

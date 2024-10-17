@@ -1,11 +1,11 @@
 
 import Navbar from "./Navbar";
 import Landingpage from "./Landing page";
-import Ourservice from "./components/Ourservice";
-import Product from "./Product";
-import About from "./About"
-import Features from "./components/Team";
-import Footer from "./footer";
+import Ourservice from "./Ourservice";
+import Products from "./Product";
+import About from "./About";
+import Features from "./Team";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
     <Navbar/>
     <Landingpage/>
     <Ourservice/>
-    <Product/>
+    <Products/>
     <About/>
     <Features/>
     <Footer/>
